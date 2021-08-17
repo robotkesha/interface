@@ -1,0 +1,186 @@
+/* This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: http://www.fonts.com */
+
+@font-face {
+    font-family: "Kenyan Coffee W05 Regular";
+    src: url("fonts/5742875/5c3be7e7-50c2-44f1-bf92-8d77bb7558d5.woff2") format("woff2"), url("fonts/5742875/b45de588-d0ee-4b48-b79d-6cb80c8995a3.woff") format("woff");
+}
+
+
+@font-face {
+    font-family: 'Bainsley Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bainsley Regular'), url('fonts/Bainsley/Bainsley-VGgJ6.woff') format('woff');
+}
+
+
+.flexContainer{
+    display: flex;
+}
+
+.header{
+    justify-content: space-between;
+}
+
+.shedule{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sheduleRow1{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sheduleRow2{
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.weather{
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.user{
+    margin-left: 20px;
+}
+
+.gradient {
+    background-image:  linear-gradient(to top, rgb(255, 255, 255) 0%, rgb(253, 254, 254) 47.410000000000004%, rgb(246, 248, 248) 68.12%, rgb(233, 239, 239) 83.62%, rgb(215, 227, 227) 96.47%, rgb(209, 222, 222) 100%);
+    background-repeat: no-repeat;
+}
+
+
+.face{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-right: 20px;
+
+}
+
+.sheduleContainer {
+    width: 230px;
+    height: 130px;
+    border-radius: 27px;
+    margin: 30px;
+}
+
+.sheduleContainer1 {
+    background-color: #D3DDDA;
+}
+
+.sheduleContainer2 {
+    background-color: #DADDD3;
+}
+
+.sheduleTime {
+    font-family: "Kenyan Coffee W05 Regular";
+    text-align: center;
+    padding-top: 10px;
+    font-size: 28px;
+    color: #897C80;
+}
+
+.sheduleText {
+    font-family: 'Bainsley Regular';
+    color: #8EA604;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 24px;
+}
+
+
+.weatherMainContainer{
+    background-color: #897C80;
+    width: 270px;
+    height: 135px;
+    border-radius: 27px;
+
+}
+
+.weatherIconContainer {
+    background-color: #F5BB00;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 150px;
+    position: relative;
+    z-index: 20;
+    top: 50px;
+
+}
+
+.weatherIconContainer img{
+    margin-left: 25px;
+    margin-top: 25px;
+
+}
+
+.weatherMainTextContainer{
+    margin-top: 10px;
+}
+
+.weatherTemp {
+    font-size: 43px;
+    color: #FFFFFF;
+    font-family: "Kenyan Coffee W05 Regular";
+    padding-left: 15px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.weatherTitle {
+    font-family: "Kenyan Coffee W05 Regular";
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 24px;
+    padding-right: 75px;
+    letter-spacing: 1px;
+}
+
+.weatherText {
+    color: #D1DEDE;
+    padding-left: 20px;
+    display: inline-flex;
+    font-size: 22px;
+    flex-direction: row;
+
+}
+
+
+.userContainer{
+    background-color: #8EA604;
+    width: 210px;
+    height: 86px;
+    border-radius: 27px;
+}
+
+.userText{
+    font-family: "Kenyan Coffee W05 Regular";
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 6;
+}
+
+.userIconContainer{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+    margin-top: 10px;
+    margin-left: 10px;
+}
